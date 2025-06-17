@@ -1,0 +1,42 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Dotnet environment
+*.pidb
+*.pdb
+*.mdb
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Others
+*.ncrunch*
+_ReSharper*/
+*.resharper
+*.vspscc
+*.vssscc
+*.dbmdl
+*.bak
+*.backup
