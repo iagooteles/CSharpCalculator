@@ -7,13 +7,13 @@ namespace Calculator
 {
     public class Calculator
     {
-        public int Add(int a, int b) => a + b;
+        public double Add(double a, double b) => a + b;
 
-        public int Subtract(int a, int b) => a - b;
+        public double Subtract(double a, double b) => a - b;
 
-        public int Multiply(int a, int b) => a * b;
+        public double Multiply(double a, double b) => a * b;
 
-        public double Divide(int a, int b)
+        public double Divide(double a, double b)
         {
             if (b == 0)
                 throw new DivideByZeroException("Não é possível dividir por zero.");

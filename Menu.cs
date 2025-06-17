@@ -7,8 +7,6 @@ namespace calculator
 {
     public class Menu
     {
-
-
         public void showMenu()
         {
             Console.Clear();
